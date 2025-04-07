@@ -60,6 +60,7 @@ For this lab I will be navigating between Admin and Agent Panels. Just wanted to
 <p>
 <b> 3. Configure Teams </b>  <br />
 Teams allows us to create a group of people from different departments. We are going to create a team in our fake org called "Online Banking" which will consist of online baking team members and help desk agents. <br />
+
 Start by going to Admin Panel -> Agents -> Teams -> Add New Team. Call the team "Online Banking" and click create. We could've added members here but we haven't created any. Reload the teams page and you should see the new team "Online Baking" has been created.
 </p>
 <p>
@@ -71,7 +72,7 @@ Start by going to Admin Panel -> Agents -> Teams -> Add New Team. Call the team 
 
 <p>
 <b>4. Allow anyone to create tickets </b> <br />
-We are going to allow anyone to create tickets. So go to Admin Panel -> Settings -> Users. Uncheck: require registration and login to create tickets.
+We are going to allow anyone to create tickets. Go to Admin Panel -> Settings -> Users. Uncheck: "Require registration and login to create tickets."
 </p>
 <p>
 <img src="https://i.imgur.com/P6hr9Il.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -80,14 +81,16 @@ We are going to allow anyone to create tickets. So go to Admin Panel -> Settings
 
 <p>
 <b>5. Configure Agents </b> <br />
-We are going to create a couple of help desk agents to do tickets with. One will be called Jane (Assigned to SysAdmins Department) and the other John (Assigned to the Support Department). We will create "Jane" first then follow the same steps to create John making sure he is assigned to "Support" department. <br />
-- Start by going to Admin Panel -> Agents -> Add New. <br />
+We are going to create a couple of help desk agents to do tickets with. One will be called Jane (Assigned to SysAdmins Department) and the other John (Assigned to the Support Department). We will create "Jane" first then follow the same steps to create John making sure he is assigned to "Support" department.
+
+Start by going to Admin Panel -> Agents -> Add New. <br />
 - Fill out "Name", "Email Address", "Username" <br />
-- Uncheck "Send the agent a password reset email". Enter the password and make sure "Require Password change at next login it set to off". This isn't the best security practice and ideally you would want them to change their password at next login but as this is a practice lab it isn't neccessary <br />
-- Select the "Access" tab. Under "Primary Department" select SysAdmins and then choose the "SysAdmin" role. Next is optional but under "Extended Access" I chose "Support" and then add to give Jane the ability to observer "Support" department tickets. <br />
+- Select Set Password -> Uncheck "Send the agent a password reset email". Enter the password and make sure "Require Password change at next login it set to off". This isn't the best security practice and ideally you would want them to change their password at next login but as this is a practice lab it isn't neccessary. <br />
+- Select the "Access" tab. Under "Primary Department" select SysAdmins and then choose the "SysAdmin" role. Next is optional, under "Extended Access" choose "Support" and then add to give Jane the ability to observe "Support" department tickets. <br />
 - Select the "Teams" tab next. Choose "Online Banking" then click Add. Then select the yellow "Create" button <br />
-- Refresh the Agents page and you will see a new agent has been created <br /> <br />
-- Repeat the steps above to create another Agent but enter the following: <br />
+- Refresh the Agents page and you will see a new agent has been created
+
+Repeat the steps above to create another Agent but enter the following: <br />
 - Name: John Doe <br />
 - Email: john@lognpacific.com <br />
 - Username: john <br />
@@ -117,7 +120,7 @@ Name: Karen, Email Address: karen@lognpacific.com. Select "Add User". Refresh th
 <br />
 
 <p>
-<b>6. Configure SLAs (Service Level Agreements) </b> <br />
+<b>7. Configure SLAs (Service Level Agreements) </b> <br />
 In the context of Helpdesks, this is going to mean how much time we have to do a specific task. We are going to create 3 SLAs: <br />
 1. Sev-A (Severity A - Highest Priority) - Grace Period: 1hr (the number of hours after a ticket is created that it will be automatically marked as overdue), Schedule: 24/7 <br />
 2. Sev-B (Severity B - Mid Priority) - Grace Period: 4hrs, Schedule: 24/7 <br />
@@ -128,7 +131,9 @@ Name: Sev-A <br />
 Grace Period: 1hr <br />
 Schedule: 24/7 <br />
 Adding an internal note is optional. <br /> 
-Select "Add Plan". Refresh the SLA page and you will notice the "Sev-A" SLA has been created. Repeat the steps and create two more plans called "Sev-B" and "Sev-C". Make sure to enter the correct information for them which is outlined above. Once you are done refresh the SLA page and you should see three SLAs created called "Sev-A", "Sev-B" and "Sev-C".
+Select "Add Plan". Refresh the SLA page and you will notice the "Sev-A" SLA has been created.
+
+Repeat the steps and create two more plans called "Sev-B" and "Sev-C". Make sure to enter the correct information for them which is outlined above. Once you are done refresh the SLA page and you should see three SLAs created called "Sev-A", "Sev-B" and "Sev-C".
 </p>
 <p>
 <img src="https://i.imgur.com/BtMCBJo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -137,3 +142,26 @@ Select "Add Plan". Refresh the SLA page and you will notice the "Sev-A" SLA has 
 <img src="https://i.imgur.com/dqyBdRN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+
+<p>
+<b>8. Configure Help Topics </b> <br />
+This will create categories for customers to choose from when creating a ticket. Start by going to Admin Panel -> Manage -> Help Topics. You will notice 4 default Help Topics have already been created in the database. For this part, we are going to create 5 Help Topics:
+
+1. Business Critical Outage - Parent Topic: "Report a Problem" <br />
+2. Personal Computer Issues - Parent Topic: "Report a Problem"  <br />
+3. Equipment Request - Parent Topic: "General Inquiry" <br />
+4. Password Reset - Parent Topic: "Report a Problem" <br />
+5. Other - Parent Topic: "General Inquiry <br />
+
+Select "Add New Help Topic". We will create the first Help Topic outlined above: <br />
+Topic: "Business Critical Outage" <br />
+Parent Topic: "Report a Problem". Click Add Topic
+
+Repeat the steps for the remaining 4 Help Topics outlined above making sure to change the "Topic" and "Parent Topic" correctly to what is defined above. Once you are done refresh the "Help Topics" page and you should see the 5 new Help Topics you created. 
+</p>
+<p>
+<img src="https://i.imgur.com/TtNJzG3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kyt8PSK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GygkIsV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<b>Congratulations! We are done with the osTicket - Post-Install Configuration section</b>
