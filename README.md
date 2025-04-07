@@ -80,14 +80,25 @@ We are going to allow anyone to create tickets. So go to Admin Panel -> Settings
 
 <p>
 <b>5. Configure Agents </b> <br />
-We are going to create a couple of help desk agents to do tickets with. One will be called Jane (Assigned to SysAdmins Department) and the other John (Assigned to the Support Department). We will create Jane first then follow the same steps to create John making sure he is assigned to "Support" department. <br />
+We are going to create a couple of help desk agents to do tickets with. One will be called Jane (Assigned to SysAdmins Department) and the other John (Assigned to the Support Department). We will create "Jane" first then follow the same steps to create John making sure he is assigned to "Support" department. <br />
 - Start by going to Admin Panel -> Agents -> Add New. <br />
 - Fill out "Name", "Email Address", "Username" <br />
-- Uncheck "Send the agent a password reset email". Enter the password and make sure "Require Password change at next login it set to off". This isn't the best security practice and ideally you would want to change to change their password at next login but as this is a practice lab it isn't neccessary <br />
+- Uncheck "Send the agent a password reset email". Enter the password and make sure "Require Password change at next login it set to off". This isn't the best security practice and ideally you would want them to change their password at next login but as this is a practice lab it isn't neccessary <br />
+- Select the "Access" tab. Under "Primary Department" select SysAdmins and then choose the "SysAdmin" role. Next is optional but under "Extended Access" I chose "Support" and then add to give Jane the ability to observer "Support" department tickets. <br />
+- Select the "Teams" tab next. Choose "Online Banking" then click Add. Then select the yellow "Create" button <br />
+- Refresh the Agents page and you will see a new agent has been created <br /> <br />
+- Repeat the steps above to create another Agent but enter the following: <br />
+- Name: John Doe <br />
+- Email: john@lognpacific.com <br />
+- Username: john <br />
+- Under "Access" Tab "Primary Department" = Support and SupremeAdmin Role. We don't need to add John to a team. <br />
 </p>
 <p>
 <img src="https://i.imgur.com/RO0JupF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/Rlzwv1H.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/WtBMoUf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mVFk2Yp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AbWTwEo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7qo8xPg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
