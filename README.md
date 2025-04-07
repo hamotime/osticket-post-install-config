@@ -115,3 +115,25 @@ Name: Karen, Email Address: karen@lognpacific.com. Select "Add User". Refresh th
 <img src="https://i.imgur.com/LSVGpPl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+
+<p>
+<b>6. Configure SLAs (Service Level Agreements) </b> <br />
+In the context of Helpdesks, this is going to mean how much time we have to do a specific task. We are going to create 3 SLAs: <br />
+1. Sev-A (Severity A - Highest Priority) - Grace Period: 1hr (the number of hours after a ticket is created that it will be automatically marked as overdue), Schedule: 24/7 <br />
+2. Sev-B (Severity B - Mid Priority) - Grace Period: 4hrs, Schedule: 24/7 <br />
+3. Sev-C (Severity C - Lowest Priority) - Grace Period: 8hrs, Schedule: 24/7 <br />
+
+Start by going to Admin Panel -> Manage -> SLA -> Add New SLA Plan <br />
+Name: Sev-A <br />
+Grace Period: 1hr <br />
+Schedule: 24/7 <br />
+Adding an internal note is optional. <br /> 
+Select "Add Plan". Refresh the SLA page and you will notice the "Sev-A" SLA has been created. Repeat the steps and create two more plans called "Sev-B" and "Sev-C". Make sure to enter the correct information for them which is outlined above. Once you are done refresh the SLA page and you should see three SLAs created called "Sev-A", "Sev-B" and "Sev-C".
+</p>
+<p>
+<img src="https://i.imgur.com/BtMCBJo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sC4nzZH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nBsvSHw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dqyBdRN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
