@@ -102,3 +102,16 @@ We are going to create a couple of help desk agents to do tickets with. One will
 <img src="https://i.imgur.com/7qo8xPg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+
+<p>
+<b>6. Configure Users </b> <br />
+Next, we will create two customers who will be used to submit tickets to the help desk. One will be called "Karen" and the other will be called "Ken". To start, go to Agent Panel -> Users -> Click "Add New User" <br />
+Name: Karen, Email Address: karen@lognpacific.com. Select "Add User". Refresh the "User directory" and you will see Karen has been added. Repeat the steps and create another user called "Ken" using the email address: "ken@lognpacific.com". You should now that two users created "Karen" and "Ken".
+</p>
+<p>
+<img src="https://i.imgur.com/1b9QhZ0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QtABwI5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/u3YwvP6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LSVGpPl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
