@@ -6,12 +6,6 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
-
-<h2>Environments and Technologies Used</h2>
-
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
@@ -78,6 +72,16 @@ Start by going to Admin Panel -> Agents -> Teams -> Add New Team. Call the team 
 <p>
 <b>4. Allow anyone to create tickets </b> <br />
 We are going to allow anyone to create tickets. So go to Admin Panel -> Settings -> Users. Uncheck: require registration and login to create tickets.
+</p>
+<p>
+<img src="https://i.imgur.com/P6hr9Il.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<b>5. Configure Agents </b> <br />
+We are going to create a couple of help desk agents to do tickets with. One will be called Jane (Assigned to SysAdmins Department) and the other John (Assigned to the Support Department). Start by going to 
+
 </p>
 <p>
 <img src="https://i.imgur.com/P6hr9Il.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
