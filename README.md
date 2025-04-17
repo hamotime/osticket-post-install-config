@@ -164,4 +164,3 @@ Repeat the steps for the remaining 4 Help Topics outlined above making sure to c
 <img src="https://i.imgur.com/kyt8PSK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/GygkIsV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<b>Congratulations! We are done with the osTicket - Post-Install Configuration section</b>
